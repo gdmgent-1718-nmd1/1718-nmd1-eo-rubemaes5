@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="wrapper">
-    <nav>
+    <nav id="nav">
         <h3>Discover</h3>
         <a href="pages/intro.html" target="content">Intro</a>
         <a href="pages/briefing.html" target="content">Briefing</a>
@@ -29,6 +29,27 @@
     <section>
         <iframe name="content" width="100%" height="100%" src="pages/intro.html" frameborder="0" border="0"></iframe>
     </section>
+
+    <button id="menu">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
 </div>
+<script>
+    var $nav = document.getElementById("nav");
+    var $button = document.getElementById("menu");
+    $button.addEventListener('click', function () {
+        
+        if ($nav.classList.contains('open')) {
+            $nav.classList.remove('open');
+            this.classList.remove('open');
+        } else {
+            $nav.classList.add('open');
+            this.classList.add('open');
+        }
+    });
+</script>
 </body>
 </html>
