@@ -10,3 +10,9 @@ body {
     line-height: 1.5em;
     padding: 25px;
 }
+
+img {
+    max-width: 100%;
+}
+
+/* Voeg jouw css hieraan toe */
