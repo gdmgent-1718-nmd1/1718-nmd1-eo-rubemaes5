@@ -12,7 +12,7 @@ body {
 }
 
 img {
-    max-width: 100%;
+    max-width: 100%; /* Afbeeldingen responsive maken */
 }
 
 /* Voeg jouw css hieraan toe */
