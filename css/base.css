@@ -41,6 +41,16 @@ body {
     display: block;
     text-decoration: none;
     color: #666;
+    position: relative;
+}
+
+.wrapper > nav a.active::before {
+    content: '-';
+    color: #EEE;
+    display: block;
+    position: absolute;
+    left: -25px; 
+    border-left: solid 3px #333;
 }
 
 .wrapper > nav a:hover {
