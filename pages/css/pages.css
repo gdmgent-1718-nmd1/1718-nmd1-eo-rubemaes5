@@ -153,5 +153,33 @@ body{
 .second{
     margin-top: 50px;
 }
-
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 30px;
+}
+a{
+    text-decoration: none;
+    color: grey;
+    position: relative;
+}
+nav ul li a:before{
+    content:"";
+    width: 0px;
+    height: 2px;
+    background-color: grey;
+    position: absolute;
+    top: 25px;
+    left: 1px;
+    transition: all 0.3s ease;
+}
+nav ul li a:hover:before{
+    content:"";
+    width: 50px;
+    height: 2px;
+    background-color: grey;
+    position: absolute;
+    top: 25px;
+    left: 1px;
+}
 /* Voeg jouw css hieraan toe */
