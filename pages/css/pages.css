@@ -1,3 +1,17 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
@@ -30,6 +44,114 @@ img {
 
 body{
     background: #EEE;
-    
+}
+.competition{
+    width: 290px;
+    height: 200px;
+    margin-left: 15px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.competition img{
+    width: 290px;
+    height: 200px;
+    object-fit: cover;
+}
+.cap:hover:before{
+    content: "CAPITOLE";
+    width: 290px;
+    height: 200px;
+    background-color: hsla(225, 55%, 58%, 1);
+    position: absolute;
+    top: 130px;
+    left: 0;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.ab:hover:before{
+    content: "ANCIENNE BELGIQUE";
+    width: 290px;
+    height: 200px;
+    background-color: hsla(225, 55%, 58%, 1);
+    position: absolute;
+    top: 130px;
+    left: 0;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.musichall:hover:before{
+    content: "MUSICHALL";
+    width: 290px;
+    height: 200px;
+    background-color: hsla(225, 55%, 58%, 1);
+    position: absolute;
+    top: 130px;
+    left: 0;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.cap:before{
+    content: "CAPITOLE";
+    width: 290px;
+    height: 200px;
+    background-color: hsla(225, 55%, 58%, 1);
+    position: absolute;
+    top: 200px;
+    left: 0;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.ab:before{
+    content: "ANCIENNE BELGIQUE";
+    width: 290px;
+    height: 200px;
+    background-color: hsla(225, 55%, 58%, 1);
+    position: absolute;
+    top: 200px;
+    left: 0;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.musichall:before{
+    content: "MUSICHALL";
+    width: 290px;
+    height: 200px;
+    background-color: hsla(225, 55%, 58%, 1);
+    position: absolute;
+    top: 200px;
+    left: 0;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.list{
+    float: left;
+    width: 35%;
+    margin-left: 50px;
+}
+.second{
+    margin-top: 50px;
+}
 
 /* Voeg jouw css hieraan toe */
