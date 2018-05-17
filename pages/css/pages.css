@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,800,900');
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -13,7 +14,7 @@
 /* close commented backslash hack */
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Montserrat', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     letter-spacing: -.022em;
     font-synthesis: none;
@@ -22,7 +23,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
     color: #333;
     line-height: 1.5em;
-    padding: 25px;
 }
 
 img {
@@ -182,4 +182,90 @@ nav ul li a:hover:before{
     top: 25px;
     left: 1px;
 }
+.header1{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #7659CF;
+    letter-spacing: 4px
+}
+.header2{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #7659CF;
+    letter-spacing: 2px;
+}
+.header3{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #575757;
+}
+.color{
+    width: 200px;
+    height: 200px;
+    float: left;
+    color: white;
+    padding: 20px;
+    margin-right: 20px;
+}
+.blue{
+    background-color: #7659CF;
+}
+.darkgray{
+    background-color: #575757;
+}
+.darkergrey{
+    background-color: #333333;
+}
+.greybackground{
+    background-color:#f7f7f7;
+    width: 400px;
+    height: 400px;
+}
+.tekstbox{
+    width: 200px;
+    height: 222px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    background: white;
+    padding: 20px;
+    transform: rotate(5deg);
+    -webkit-box-shadow: 0px 0px 33px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 33px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 33px 0px rgba(0,0,0,0.2);
+}
+.tekstbox p{
+    transform: rotate(-5deg);
+    
+}
+.lightgrey{
+    background-color: #F7F7F7;
+    color: #333;
+}
+.blueback{
+    position: relative;
+    width: 200px;
+    height: 150px;
+    background-color: #7659CF;
+}
+.whiteback{
+    width: 500px;
+    height: 50px;
+    background-color: white;
+    padding-left: 20px;
+    padding-top:13px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    -webkit-box-shadow: 0px 0px 33px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 33px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 33px 0px rgba(0,0,0,0.2);
+}
+.whiteback p{
+    margin: 0px;
+}
+
 /* Voeg jouw css hieraan toe */
