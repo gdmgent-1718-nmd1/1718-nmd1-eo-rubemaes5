@@ -72,6 +72,10 @@ body{
     padding-top: 20px;
     overflow: hidden;
 }
+.textbox p{
+    margin-left: 20px;
+    margin-top: 20px;
+}
 .ab:hover:before{
     content: "ANCIENNE BELGIQUE";
     width: 290px;
