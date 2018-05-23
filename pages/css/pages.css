@@ -72,10 +72,7 @@ body{
     padding-top: 20px;
     overflow: hidden;
 }
-.tekstbox p{
-    margin-left: 20px;
-    margin-top: 20px;
-}
+
 .ab:hover:before{
     content: "ANCIENNE BELGIQUE";
     width: 290px;
@@ -272,4 +269,8 @@ nav ul li a:hover:before{
     margin: 0px;
 }
 
+.tekstbox p{
+    margin-left: 20px;
+    margin-top: 20px;
+}
 /* Voeg jouw css hieraan toe */
