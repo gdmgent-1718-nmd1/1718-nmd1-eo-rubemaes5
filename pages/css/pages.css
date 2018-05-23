@@ -226,8 +226,8 @@ nav ul li a:hover:before{
     height: 400px;
 }
 .tekstbox{
-    width: 200px;
-    height: 222px;
+    width: 30px;
+    height: 322px;
     position: relative;
     top: 100px;
     left: 100px;
@@ -271,6 +271,7 @@ nav ul li a:hover:before{
 
 .tekstbox p{
     margin-left: 20px;
-    margin-top: 20px;
+    padding-top: 27px;
+    
 }
 /* Voeg jouw css hieraan toe */
