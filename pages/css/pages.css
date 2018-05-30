@@ -187,21 +187,21 @@ nav ul li a:hover:before{
     font-size: 24px;
     text-transform: uppercase;
     font-weight: 800;
-    color: #7659CF;
+    color: #5A78CD;
     letter-spacing: 4px
 }
 .header2{
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 800;
-    color: #7659CF;
+    color: #5A78CD;
     letter-spacing: 2px;
 }
 .header3{
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 800;
-    color: #575757;
+    color: #5A78CD;
 }
 .color{
     width: 200px;
@@ -212,7 +212,7 @@ nav ul li a:hover:before{
     margin-right: 20px;
 }
 .blue{
-    background-color: #7659CF;
+    background-color: #5A78CD;
 }
 .darkgray{
     background-color: #575757;
